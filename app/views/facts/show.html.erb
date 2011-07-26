@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @fact.title %>
+</p>
+
+<p>
+  <b>Topic:</b>
+  <%= @fact.topic %>
+</p>
+
+<p>
+  <b>Text:</b>
+  <%= @fact.text %>
+</p>
+
+
+<%= link_to 'Edit', edit_fact_path(@fact) %> |
+<%= link_to 'Back', facts_path %>
