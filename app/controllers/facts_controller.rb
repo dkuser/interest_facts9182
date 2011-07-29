@@ -17,7 +17,17 @@ class FactsController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render :xml => @fact }
+      #format.xml  { render :xml => @fact }
+    end
+  end
+  
+  # GET /
+  def show_rand
+    @fact = Fact.random_record.first
+
+    respond_to do |format|
+      format.html # show_rand.html.erb
+      #format.xml  { render :xml => @fact }
     end
   end
 

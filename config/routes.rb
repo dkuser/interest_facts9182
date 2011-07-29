@@ -1,6 +1,12 @@
 InterestFacts::Application.routes.draw do
-  resources :facts
+  #resources :facts
 
+  
+  match '/facts/:id' => 'facts#show'
+  
+  root :to => "facts#show_rand"
+
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
