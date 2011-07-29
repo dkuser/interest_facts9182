@@ -1,20 +1,22 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <b>Title:</b>
-  <%= @fact.title %>
-</p>
-
-<p>
-  <b>Topic:</b>
-  <%= @fact.topic %>
-</p>
-
-<p>
-  <b>Text:</b>
-  <%= @fact.text %>
-</p>
+# encoding: utf-8
+<% content_for :title, ":#{@fact.title}" %>
 
 
-<%= link_to 'Edit', edit_fact_path(@fact) %> |
-<%= link_to 'Back', facts_path %>
+
+<table id="middle_top">
+  <tr><td>
+      
+    <div id="middle">
+      
+    <div id="clause">
+      <%= @fact.text %>
+      
+      <br/>
+      <div id="line_title"> </div>
+      <div id="content_title"><%= @fact.title %><span id="permanent_link"> <%= link_to "##{@fact.id}", @fact %></span></div>
+    </div>
+    <br/>
+    <div id="constant_address"> </div>
+  </div>
+    </td></tr>
+</table>
