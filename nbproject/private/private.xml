@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/D:/NetBeans/Ruby/interest_facts/app/controllers/facts_controller.rb</file>
+        <file>file:/D:/NetBeans/Ruby/interest_facts/app/helpers/facts_helper.rb</file>
+        <file>file:/D:/NetBeans/Ruby/interest_facts/app/models/fact.rb</file>
+        <file>file:/D:/NetBeans/Ruby/interest_facts/app/views/facts/show_rand.html.erb</file>
+        <file>file:/D:/NetBeans/Ruby/interest_facts/app/views/layouts/application.html.erb</file>
+        <file>file:/D:/NetBeans/Ruby/interest_facts/app/controllers/application_controller.rb</file>
+    </open-files>
 </project-private>
